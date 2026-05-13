@@ -1,0 +1,1005 @@
+{
+    "intents": [
+        {
+            "tag": "Common Cold",
+            "patterns": [
+                "runny nose and sneezing",
+                "sore throat with mild cough",
+                "blocked nose",
+                "cold and congestion",
+                "feeling tired with cold"
+            ],
+            "responses": [
+                "You may have a common cold. Rest and stay hydrated. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Flu",
+            "patterns": [
+                "high fever and body pain",
+                "chills and fatigue",
+                "dry cough with headache",
+                "severe weakness",
+                "flu symptoms"
+            ],
+            "responses": [
+                "Possible flu. Take rest and consult a doctor. The flu is a contagious respiratory illness. Measures: 1) Get plenty of rest and sleep. 2) Stay warm and hydrated. 3) Take over-the-counter fever reducers if needed. See a doctor if symptoms last more than a week."
+            ]
+        },
+        {
+            "tag": "Migraine",
+            "patterns": [
+                "severe headache",
+                "nausea with headache",
+                "light sensitivity",
+                "throbbing head pain",
+                "vomiting with headache"
+            ],
+            "responses": [
+                "Possible migraine. Rest in a dark room. Migraines are severe, throbbing headaches. Measures: 1) Rest in a quiet, dark room. 2) Apply a cold compress to your forehead. 3) Stay hydrated and try caffeine in small amounts."
+            ]
+        },
+        {
+            "tag": "Diabetes",
+            "patterns": [
+                "frequent urination",
+                "increased thirst",
+                "weight loss",
+                "blurred vision",
+                "fatigue"
+            ],
+            "responses": [
+                "Possible diabetes. Check blood sugar. Diabetes affects how your body uses blood sugar. Measures: 1) Monitor your blood sugar levels regularly. 2) Maintain a strict, low-sugar diet. 3) Exercise daily. Please consult an endocrinologist for a proper treatment plan."
+            ]
+        },
+        {
+            "tag": "Hypertension",
+            "patterns": [
+                "headache and dizziness",
+                "blurred vision",
+                "chest discomfort",
+                "high bp symptoms",
+                "pressure in head"
+            ],
+            "responses": [
+                "Possible hypertension. Monitor BP. Hypertension means your blood pressure is physically too high. Measures: 1) Reduce salt (sodium) intake immediately. 2) Avoid stress and practice deep breathing. 3) Monitor your blood pressure and consult a doctor for medication."
+            ]
+        },
+        {
+            "tag": "Asthma",
+            "patterns": [
+                "shortness of breath",
+                "wheezing",
+                "chest tightness",
+                "night cough",
+                "breathing difficulty"
+            ],
+            "responses": [
+                "Possible asthma. Asthma narrows your airways. Measures: 1) Sit upright to breathe easier. 2) Take long, deep breaths. 3) Use your prescribed inhaler. Seek emergency care if your lips turn blue or breathing becomes extremely difficult."
+            ]
+        },
+        {
+            "tag": "Bronchitis",
+            "patterns": [
+                "persistent cough",
+                "mucus cough",
+                "fatigue",
+                "shortness breath",
+                "chest discomfort"
+            ],
+            "responses": [
+                "Possible bronchitis. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Pneumonia",
+            "patterns": [
+                "chest pain with fever",
+                "cough with phlegm",
+                "breathing problem",
+                "high fever",
+                "weakness"
+            ],
+            "responses": [
+                "Possible pneumonia. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Tuberculosis",
+            "patterns": [
+                "chronic cough",
+                "blood in cough",
+                "weight loss",
+                "night sweats",
+                "weakness"
+            ],
+            "responses": [
+                "Possible TB. TB is a serious bacterial infection of the lungs. Measures: 1) Cover your mouth when coughing. 2) Isolate yourself. 3) This requires a strict 6-month antibiotic course\u2014visit a pulmonologist urgently."
+            ]
+        },
+        {
+            "tag": "COVID-19",
+            "patterns": [
+                "loss of smell",
+                "fever and cough",
+                "breathing issues",
+                "fatigue",
+                "loss of taste"
+            ],
+            "responses": [
+                "Possible COVID-19. COVID-19 is a highly infectious respiratory disease. Measures: 1) Isolate yourself immediately. 2) Wear a mask around others. 3) Monitor your oxygen levels daily using an oximeter, and consult a doctor if the level drops below 94%."
+            ]
+        },
+        {
+            "tag": "Food Poisoning",
+            "patterns": [
+                "vomiting",
+                "diarrhea",
+                "stomach pain",
+                "nausea",
+                "after eating bad food"
+            ],
+            "responses": [
+                "Possible food poisoning. This is caused by eating contaminated food. Measures: 1) Stop eating solid foods until vomiting stops. 2) Drink ORS or clear fluids to replace lost water. 3) Rest. See a doctor if symptoms last more than 48 hours or you see blood."
+            ]
+        },
+        {
+            "tag": "Gastritis",
+            "patterns": [
+                "burning stomach",
+                "bloating",
+                "nausea",
+                "loss of appetite",
+                "stomach irritation"
+            ],
+            "responses": [
+                "Possible gastritis. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Acid Reflux",
+            "patterns": [
+                "heartburn",
+                "chest burning",
+                "sour taste",
+                "regurgitation",
+                "acid feeling"
+            ],
+            "responses": [
+                "Possible acid reflux. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Ulcer",
+            "patterns": [
+                "stomach pain",
+                "burning pain",
+                "nausea",
+                "weight loss",
+                "ulcer symptoms"
+            ],
+            "responses": [
+                "Possible ulcer. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Appendicitis",
+            "patterns": [
+                "lower right pain",
+                "severe abdominal pain",
+                "vomiting",
+                "fever",
+                "loss appetite"
+            ],
+            "responses": [
+                "Emergency: appendicitis. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Malaria",
+            "patterns": [
+                "fever with chills",
+                "sweating",
+                "headache",
+                "body pain",
+                "recurring fever"
+            ],
+            "responses": [
+                "Possible malaria. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Dengue",
+            "patterns": [
+                "high fever",
+                "joint pain",
+                "rash",
+                "bleeding gums",
+                "eye pain"
+            ],
+            "responses": [
+                "Possible dengue. Dengue is a mosquito-borne illness. Measures: 1) Drink plenty of water and ORS to prevent dehydration. 2) Take Paracetamol for fever (Strictly avoid Aspirin or Ibuprofen). 3) Get complete bed rest. Visit a hospital if you experience severe abdominal pain or bleeding."
+            ]
+        },
+        {
+            "tag": "Typhoid",
+            "patterns": [
+                "long fever",
+                "weakness",
+                "abdominal pain",
+                "loss appetite",
+                "headache"
+            ],
+            "responses": [
+                "Possible typhoid. Typhoid is a bacterial infection from contaminated food/water. Measures: 1) Stay extremely hydrated. 2) Eat bland, easy-to-digest food. 3) Visit a doctor immediately for a blood test and antibiotics."
+            ]
+        },
+        {
+            "tag": "Cholera",
+            "patterns": [
+                "severe diarrhea",
+                "dehydration",
+                "vomiting",
+                "weakness",
+                "loose motions"
+            ],
+            "responses": [
+                "Possible cholera. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Hepatitis",
+            "patterns": [
+                "jaundice",
+                "dark urine",
+                "fatigue",
+                "abdominal pain",
+                "yellow eyes"
+            ],
+            "responses": [
+                "Possible hepatitis. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Anemia",
+            "patterns": [
+                "fatigue",
+                "pale skin",
+                "dizziness",
+                "shortness breath",
+                "weakness"
+            ],
+            "responses": [
+                "Possible anemia. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Thyroid Disorder",
+            "patterns": [
+                "weight gain",
+                "hair loss",
+                "fatigue",
+                "cold intolerance",
+                "slow metabolism"
+            ],
+            "responses": [
+                "Possible thyroid issue. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Depression",
+            "patterns": [
+                "sadness",
+                "loss interest",
+                "fatigue",
+                "sleep issues",
+                "hopelessness"
+            ],
+            "responses": [
+                "Possible depression. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Anxiety",
+            "patterns": [
+                "restlessness",
+                "fear",
+                "rapid heartbeat",
+                "sweating",
+                "panic"
+            ],
+            "responses": [
+                "Possible anxiety. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Insomnia",
+            "patterns": [
+                "difficulty sleeping",
+                "waking often",
+                "fatigue",
+                "poor sleep",
+                "restless night"
+            ],
+            "responses": [
+                "Possible insomnia. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Allergy",
+            "patterns": [
+                "itching",
+                "rash",
+                "sneezing",
+                "swelling",
+                "runny nose"
+            ],
+            "responses": [
+                "Possible allergy. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Skin Infection",
+            "patterns": [
+                "redness",
+                "swelling",
+                "pain",
+                "pus",
+                "irritation"
+            ],
+            "responses": [
+                "Possible skin infection. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Psoriasis",
+            "patterns": [
+                "scaly skin",
+                "itching",
+                "red patches",
+                "dry skin",
+                "flakes"
+            ],
+            "responses": [
+                "Possible psoriasis. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Eczema",
+            "patterns": [
+                "dry skin",
+                "itching",
+                "red rash",
+                "irritation",
+                "inflammation"
+            ],
+            "responses": [
+                "Possible eczema. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Acne",
+            "patterns": [
+                "pimples",
+                "oily skin",
+                "blackheads",
+                "whiteheads",
+                "breakouts"
+            ],
+            "responses": [
+                "Common acne. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Kidney Stones",
+            "patterns": [
+                "severe pain",
+                "blood urine",
+                "nausea",
+                "lower back pain",
+                "urination pain"
+            ],
+            "responses": [
+                "Possible kidney stones. Hard deposits of minerals and acid salts. Measures: 1) Drink extreme amounts of water (2-3 liters) to help flush the stone out. 2) Take prescribed pain relievers. 3) Visit a urologist if the pain is unbearable."
+            ]
+        },
+        {
+            "tag": "UTI",
+            "patterns": [
+                "burning urination",
+                "frequent urination",
+                "pelvic pain",
+                "cloudy urine",
+                "urgency"
+            ],
+            "responses": [
+                "Possible UTI. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Liver Disease",
+            "patterns": [
+                "jaundice",
+                "fatigue",
+                "swelling",
+                "abdominal pain",
+                "dark urine"
+            ],
+            "responses": [
+                "Possible liver disease. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Heart Attack",
+            "patterns": [
+                "chest pain",
+                "left arm pain",
+                "sweating",
+                "shortness breath",
+                "pressure"
+            ],
+            "responses": [
+                "Emergency heart attack. A heart attack is a severe medical emergency where blood flow to the heart is blocked. Measures: 1) Call an ambulance immediately. 2) Do not attempt to drive yourself. 3) Chew an aspirin if you are not allergic while waiting for help."
+            ]
+        },
+        {
+            "tag": "Stroke",
+            "patterns": [
+                "face droop",
+                "speech issue",
+                "weakness",
+                "confusion",
+                "imbalance"
+            ],
+            "responses": [
+                "Emergency stroke. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Sinusitis",
+            "patterns": [
+                "facial pain",
+                "blocked nose",
+                "head pressure",
+                "runny nose",
+                "sinus pain"
+            ],
+            "responses": [
+                "Possible sinus infection. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Otitis",
+            "patterns": [
+                "ear pain",
+                "hearing loss",
+                "ear discharge",
+                "pressure in ear",
+                "ear infection"
+            ],
+            "responses": [
+                "Possible ear infection. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Conjunctivitis",
+            "patterns": [
+                "red eyes",
+                "itchy eyes",
+                "eye discharge",
+                "watering eyes",
+                "pink eye"
+            ],
+            "responses": [
+                "Possible conjunctivitis. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Glaucoma",
+            "patterns": [
+                "eye pain",
+                "blurred vision",
+                "halo vision",
+                "eye pressure",
+                "vision loss"
+            ],
+            "responses": [
+                "Possible glaucoma. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Cataract",
+            "patterns": [
+                "cloudy vision",
+                "blurred sight",
+                "faded colors",
+                "night vision problem",
+                "vision dull"
+            ],
+            "responses": [
+                "Possible cataract. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Arthritis",
+            "patterns": [
+                "joint pain",
+                "stiff joints",
+                "swelling joints",
+                "reduced movement",
+                "pain in joints"
+            ],
+            "responses": [
+                "Possible arthritis. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Osteoporosis",
+            "patterns": [
+                "bone weakness",
+                "frequent fractures",
+                "back pain",
+                "bone loss",
+                "fragile bones"
+            ],
+            "responses": [
+                "Possible osteoporosis. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Gout",
+            "patterns": [
+                "joint swelling",
+                "big toe pain",
+                "red joints",
+                "severe joint pain",
+                "gout symptoms"
+            ],
+            "responses": [
+                "Possible gout. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Sciatica",
+            "patterns": [
+                "lower back pain",
+                "leg pain",
+                "nerve pain",
+                "tingling leg",
+                "radiating pain"
+            ],
+            "responses": [
+                "Possible sciatica. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Scoliosis",
+            "patterns": [
+                "curved spine",
+                "back pain",
+                "uneven shoulders",
+                "posture issue",
+                "spine problem"
+            ],
+            "responses": [
+                "Possible scoliosis. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Parkinsons",
+            "patterns": [
+                "tremors",
+                "slow movement",
+                "stiff muscles",
+                "balance issues",
+                "shaking hands"
+            ],
+            "responses": [
+                "Possible Parkinson\u00e2\u20ac\u2122s disease. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Alzheimer",
+            "patterns": [
+                "memory loss",
+                "confusion",
+                "difficulty thinking",
+                "forgetfulness",
+                "behavior change"
+            ],
+            "responses": [
+                "Possible Alzheimer\u00e2\u20ac\u2122s disease. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Epilepsy",
+            "patterns": [
+                "seizures",
+                "uncontrolled shaking",
+                "loss of consciousness",
+                "confusion",
+                "fits"
+            ],
+            "responses": [
+                "Possible epilepsy. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Multiple Sclerosis",
+            "patterns": [
+                "vision problems",
+                "numbness",
+                "fatigue",
+                "weakness",
+                "balance issues"
+            ],
+            "responses": [
+                "Possible multiple sclerosis. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Vertigo",
+            "patterns": [
+                "dizziness",
+                "spinning sensation",
+                "loss of balance",
+                "nausea",
+                "lightheaded"
+            ],
+            "responses": [
+                "Possible vertigo. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Obesity",
+            "patterns": [
+                "weight gain",
+                "high bmi",
+                "fat accumulation",
+                "difficulty moving",
+                "overweight"
+            ],
+            "responses": [
+                "Possible obesity. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Malnutrition",
+            "patterns": [
+                "weight loss",
+                "weakness",
+                "vitamin deficiency",
+                "fatigue",
+                "poor nutrition"
+            ],
+            "responses": [
+                "Possible malnutrition. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Dehydration",
+            "patterns": [
+                "dry mouth",
+                "thirst",
+                "dark urine",
+                "fatigue",
+                "dizziness"
+            ],
+            "responses": [
+                "Possible dehydration. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Heat Stroke",
+            "patterns": [
+                "high body temperature",
+                "confusion",
+                "no sweating",
+                "dizziness",
+                "heat exposure"
+            ],
+            "responses": [
+                "Possible heat stroke. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Hypothermia",
+            "patterns": [
+                "low body temperature",
+                "shivering",
+                "confusion",
+                "slow breathing",
+                "cold exposure"
+            ],
+            "responses": [
+                "Possible hypothermia. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Chickenpox",
+            "patterns": [
+                "itchy rash",
+                "blisters",
+                "fever",
+                "fatigue",
+                "skin spots"
+            ],
+            "responses": [
+                "Possible chickenpox. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Measles",
+            "patterns": [
+                "rash",
+                "fever",
+                "cough",
+                "runny nose",
+                "red eyes"
+            ],
+            "responses": [
+                "Possible measles. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Mumps",
+            "patterns": [
+                "swollen glands",
+                "jaw pain",
+                "fever",
+                "headache",
+                "fatigue"
+            ],
+            "responses": [
+                "Possible mumps. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Rubella",
+            "patterns": [
+                "rash",
+                "mild fever",
+                "joint pain",
+                "red eyes",
+                "swollen glands"
+            ],
+            "responses": [
+                "Possible rubella. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Rabies",
+            "patterns": [
+                "animal bite",
+                "fear of water",
+                "confusion",
+                "paralysis",
+                "aggression"
+            ],
+            "responses": [
+                "Emergency: possible rabies. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Tetanus",
+            "patterns": [
+                "muscle stiffness",
+                "jaw lock",
+                "spasms",
+                "difficulty swallowing",
+                "rigidity"
+            ],
+            "responses": [
+                "Possible tetanus. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Polio",
+            "patterns": [
+                "muscle weakness",
+                "paralysis",
+                "fever",
+                "fatigue",
+                "limb weakness"
+            ],
+            "responses": [
+                "Possible polio. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Leprosy",
+            "patterns": [
+                "skin lesions",
+                "numbness",
+                "nerve damage",
+                "weak muscles",
+                "skin patches"
+            ],
+            "responses": [
+                "Possible leprosy. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Ringworm",
+            "patterns": [
+                "circular rash",
+                "itching",
+                "red skin",
+                "scaly patches",
+                "fungal infection"
+            ],
+            "responses": [
+                "Possible ringworm. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Scabies",
+            "patterns": [
+                "intense itching",
+                "skin rash",
+                "burrows",
+                "night itching",
+                "skin irritation"
+            ],
+            "responses": [
+                "Possible scabies. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Hair Loss",
+            "patterns": [
+                "hair fall",
+                "thinning hair",
+                "bald patches",
+                "weak hair",
+                "hair shedding"
+            ],
+            "responses": [
+                "Possible hair loss condition. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Dandruff",
+            "patterns": [
+                "flaky scalp",
+                "itchy scalp",
+                "white flakes",
+                "dry scalp",
+                "hair itching"
+            ],
+            "responses": [
+                "Possible dandruff. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "PCOS",
+            "patterns": [
+                "irregular periods",
+                "weight gain",
+                "acne",
+                "hair growth",
+                "hormonal imbalance"
+            ],
+            "responses": [
+                "Possible PCOS. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Endometriosis",
+            "patterns": [
+                "pelvic pain",
+                "painful periods",
+                "heavy bleeding",
+                "abdominal pain",
+                "cramps"
+            ],
+            "responses": [
+                "Possible endometriosis. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Pregnancy",
+            "patterns": [
+                "missed periods",
+                "nausea",
+                "fatigue",
+                "breast tenderness",
+                "vomiting"
+            ],
+            "responses": [
+                "Possible pregnancy. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Erectile Dysfunction",
+            "patterns": [
+                "difficulty erection",
+                "low libido",
+                "performance issue",
+                "sexual weakness",
+                "erection problem"
+            ],
+            "responses": [
+                "Possible erectile dysfunction. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Infertility",
+            "patterns": [
+                "unable to conceive",
+                "irregular cycles",
+                "low sperm count",
+                "hormonal issue",
+                "fertility problem"
+            ],
+            "responses": [
+                "Possible infertility. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "HIV",
+            "patterns": [
+                "weight loss",
+                "fever",
+                "night sweats",
+                "fatigue",
+                "weak immunity"
+            ],
+            "responses": [
+                "Possible HIV. Get tested. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Cancer",
+            "patterns": [
+                "unexplained weight loss",
+                "lumps",
+                "fatigue",
+                "pain",
+                "bleeding"
+            ],
+            "responses": [
+                "Possible cancer. Seek medical evaluation. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Leukemia",
+            "patterns": [
+                "fatigue",
+                "frequent infections",
+                "bleeding",
+                "pale skin",
+                "fever"
+            ],
+            "responses": [
+                "Possible leukemia. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Lymphoma",
+            "patterns": [
+                "swollen lymph nodes",
+                "fever",
+                "night sweats",
+                "weight loss",
+                "fatigue"
+            ],
+            "responses": [
+                "Possible lymphoma. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        },
+        {
+            "tag": "Brain Tumor",
+            "patterns": [
+                "headache",
+                "vision problems",
+                "seizures",
+                "balance issues",
+                "nausea"
+            ],
+            "responses": [
+                "Possible brain tumor. Measures: 1) Ensure you are well-rested and extremely hydrated. 2) Monitor your symptoms closely over the next 24 hours. 3) Please consult a certified medical professional for a proper diagnosis and treatment plan."
+            ]
+        }
+    ]
+}

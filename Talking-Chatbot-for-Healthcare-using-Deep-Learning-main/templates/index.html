@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrustBot - Healthcare AI</title>
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Header -->
+        <header class="chat-header">
+            <div class="bot-avatar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="22"></line></svg>
+            </div>
+            <div class="header-info">
+                <h1>TrustBot AI</h1>
+                <p>Healthcare Diagnostic Assistant</p>
+            </div>
+        </header>
+
+        <!-- Chat Area -->
+        <main class="chat-box" id="chat-box">
+            <!-- Initial Greeting -->
+            <div class="message bot-message">
+                <div class="message-content">
+                    <p>Hello! I am your AI healthcare assistant. Please tell me your symptoms (e.g. "I have a high fever and joint pain"). Press the microphone to speak!</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Input Area -->
+        <footer class="chat-input-area">
+            <!-- Animated Recording Indicator hidden by default -->
+            <div id="recording-indicator" class="recording-indicator hidden">
+                Listening... Speak now!
+                <div class="wave"></div><div class="wave"></div><div class="wave"></div>
+            </div>
+
+            <div class="controls">
+                <button id="mic-btn" class="mic-btn" aria-label="Hold to Record">
+                    <svg id="mic-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="22"></line></svg>
+                </button>
+                <input type="text" id="text-input" placeholder="Or type your symptoms here..." autocomplete="off">
+                <button id="send-btn" class="send-btn">Send</button>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
